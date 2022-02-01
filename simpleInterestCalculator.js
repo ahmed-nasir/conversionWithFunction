@@ -9,3 +9,6 @@ let time = 2;
 let interest = simpleInterestCalculator(principle, rateOfInterest, time);
 
 console.log(interest);
+
+let total = principle + interest;
+console.log(total);
